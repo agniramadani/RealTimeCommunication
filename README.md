@@ -31,7 +31,7 @@ python3 manage.py migrate
 ```
 
 ```bash
-daphne -p 8000 name_of_your_app.asgi:application
+daphne -p 8000 api.asgi:application
 ```
 
 ### Frontend 
