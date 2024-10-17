@@ -22,16 +22,18 @@ This repo shows real-time communication using Django, WebSocket, SQLite, and a R
 
 ### Backend
 ```bash
+python3 manage.py migrate
+```
+
+```bash
 daphne -p 8000 name_of_your_app.asgi:application
 ```
 
 ### Frontend 
 ```bash
-yarn create vite your-app-name --template react
+cd frontend
 ```
-```bash
-cd your-app-name
-```
+
 ```bash
 yarn install
 
