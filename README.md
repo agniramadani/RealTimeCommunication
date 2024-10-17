@@ -2,8 +2,13 @@
 This repo shows real-time communication using Django, WebSocket, SQLite, and a React + Vite frontend. It’s a simple demo of WebSockets in Django.
 
 ## Roadmap
+- Screenshot
 - Prerequisites
+- Getting Started
 - Author
+
+## Screenshot
+![Screenshot](Screenshot.png)
 
 ## Prerequisites
 
